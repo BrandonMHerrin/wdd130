@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Roboto&display=swap');
+
+:root {
+    --primary-color: #484F4F;
+    --secondary-color: #E7E7E0;
+    --accent1-color: #142021;
+    --accent2-color: #888F8F;
+
+    --heading-font: "Concert One", sans-serif;
+    --paragraph-font: "Roboto", sans-serif;
+
+    --nav-background-color: var(--primary-color);
+    --nav-link-color: var(--secondary-color);
+    --nav-hover-link-color: var(--accent1-color);
+    --nav-hover-background-color: var(--secondary-color);
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+    margin: auto;
+    color: var(--accent1-color);
+}
+header {
+    padding: 1.2rem;
+    background-color: var(--secondary-color);
+}
+
+header img {
+    height: auto;
+    width: 250px;
+    margin: 0 auto 1.2rem;
+    border: 1px solid var(--accent1-color);
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    display: flex;
+    font-size: 1.2rem;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link,
+nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+.hero {
+    position: relative;
+    height: 500px;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: absolute;
+}
+
+.hero h1 {
+    position: absolute;
+    margin: 0;
+    top: 2rem;
+    right: 2rem;
+    color: var(--secondary-color);
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px var(--accent1-color);
+}
+
+.hero article {
+    position: absolute;
+    right: 2rem;
+    top: 6rem;
+    width: 600px;
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+    padding: 20px;
+    opacity: 0.8;
+}
+
+.hero article img {
+    float: right;
+    width: 250px;
+    height: auto;
+    position: static
+}
+
+footer img {
+    height: auto;
+    width: 1.2rem;
+    margin: 5px;
+    float: right;
+}
+
+.flex-1 {
+    flex: 1;
+}
