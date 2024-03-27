@@ -155,6 +155,10 @@ section {
     color: var(--accent1-color);
 }
 
+h2 {
+    text-align: center;
+}
+
 footer {
     display: flex;
 }
