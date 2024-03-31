@@ -48,6 +48,7 @@ h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     margin: 0;
+    text-align: center;
 }
 
 nav {
@@ -155,8 +156,83 @@ section {
     color: var(--accent1-color);
 }
 
-h2 {
+.contact-us-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 1rem 0;
+}
+
+.address-wrapper p {
+    margin: 0;
+    padding: .2rem;
+    color: var(--accent1-color);
+}
+
+.team-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 1rem 0;
+}
+
+.team-wrapper figure {
+    width: 170px;
     text-align: center;
+}
+
+.team-wrapper figure img {
+    width: 150px;
+    height: auto;
+}
+
+.questions-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 50%;
+    margin: 0 auto;
+}
+.questions-form .question {
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+}
+
+.questions-form .question-radio {
+    display: flex;
+    gap: 1rem;
+    justify-content: start;
+}
+
+input, textarea {
+    padding: .5rem;
+    font-size: 1rem;
+}
+
+input[type="radio"] {
+    width: 1rem;
+    height: 1rem;
+}
+input[type="checkbox"] {
+    width: 1rem;
+    height: 1rem;
+}
+
+button {
+    padding: .5rem;
+    font-size: 1rem;
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
 }
 
 footer {

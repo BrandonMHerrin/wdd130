@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>White Water Rafting Co. | Contact Us</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <meta name="author" content="Brandon Melvin Herrin">
+    <meta
+      name="description"
+      content="This page is the contact us page for the Western Whitewater Rafting company"
+    >
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.png" alt="WWR Logo">
+      <nav>
+        <span class="flex-1"></span>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="trips.html">Trips</a>
+        <a href="contact.html">Contact</a>
+        <span class="flex-1"></span>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1>Contact Us</h1>
+        <div class="contact-us-wrapper">
+          <div class="address-wrapper">
+            <p>83 N Main St, Moab, UT</p>
+            <p>Phone: 555-555-5555</p>
+            <p>Email: info@wwr.com</p>
+          </div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1456.995497897697!2d-109.55178611100774!3d38.57429674358117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1711854403292!5m2!1sen!2sus" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </section>
+      <section>
+        <h2>Meet the Team</h2>
+        <div class="team-wrapper">
+          <figure>
+            <img src="images/tim.webp" alt="Team Member Tim">
+            <figcaption>John Doe</figcaption>
+          </figure>
+          <figure>
+            <img src="images/karolina.webp" alt="Team Member Karonlina">
+            <figcaption>Jane Doe</figcaption>
+          </figure>
+          <figure>
+            <img src="images/andre.webp" alt="Team Member Andre">
+            <figcaption>John Smith</figcaption>
+          </figure>
+        </div>
+      </section>
+      <section>
+        <h2>Questions</h2>
+        <form class="questions-form">
+          <div class="question">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" >
+          </div>
+          <div class="question">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+          </div>
+          <div class="question">
+            <label>Type:</label>
+            <div class="question-radio">
+              <input type="radio" id="general" name="type" value="general">
+              <label for="general">General</label>
+              <input type="radio" id="reservation" name="type" value="reservation">
+              <label for="reservation">Reservation</label>
+              <input type="radio" id="website" name="type" value="website" required>
+              <label for="website">Website</label>
+            </div>
+          </div>
+          <div class="question">
+            <label for="question">Question:</label>
+            <textarea id="question" name="question" rows="10"></textarea>
+          </div>
+          <div>
+            <input type="checkbox" id="subscribe" name="subscribe">
+            <label for="subscribe">Subscribe to our newsletter</label>
+          </div>
+          <button type="submit">Submit Question</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 White Whitewater Rafting Co. | Brandon Melvin Herrin</p>
+      <div class="social">
+        <a href="https://facebook.com" target="_blank"
+          ><img src="images/facebook_icon.svg" alt="Facebook Logo"
+        ></a>
+        <a href="https://twitter.com" target="_blank"
+          ><img src="images/new_twitter_logo.svg" alt="Twitter Logo"></a
+        ><a href="https://instagram.com" target="_blank"
+          ><img src="images/instagram_icon.svg" alt="Instagram Logo"
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>
